@@ -28,6 +28,7 @@ import devPulseImg from '../assets/devpulse.png'
 import edotelImg from '../assets/edotel.png'
 import juwaraKopiImg from '../assets/juwara-kopi.png'
 import medPlatformImg from '../assets/medplatform.png'
+import profileImg from '../assets/profile.png'
 
 const defaultProjects = [
   {
@@ -454,7 +455,7 @@ function Portfolio() {
                   </defs>
                   <path d="M50 5 L61.8 38.2 L97 38.2 L68.5 59.8 L79.3 93 L50 72.5 L20.7 93 L31.5 59.8 L3 38.2 L38.2 38.2 Z" stroke="url(#star-grad)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-                <img src="/src/assets/profile.png" alt="Muhammad Ryan Azis" onError={(e) => { e.target.src = "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=400&h=500"; e.target.style.borderRadius = "24px"; }} />
+                <img src={profileImg} alt="Muhammad Ryan Azis" onError={(e) => { e.target.src = "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=400&h=500"; e.target.style.borderRadius = "24px"; }} />
               </div>
             </motion.div>
           </section>
