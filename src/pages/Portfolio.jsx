@@ -377,13 +377,13 @@ function Portfolio() {
                 <span>Ryan</span>
               </div>
               <ul className="nav-links">
-                <li><a href="#home" className="active">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Certifications</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home" className="active">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skills">Sertifikasi</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
               </ul>
-              <a href="mailto:ryanazis24@gmail.com?body=halo,%20apakah%20saya%20bisa%20di%20bantu" className="btn btn-primary">Contact Me <ArrowUpRight size={16} /></a>
+              <a href="mailto:ryanazis24@gmail.com?body=halo,%20apakah%20saya%20bisa%20di%20bantu" className="btn btn-primary">Hubungi Saya <ArrowUpRight size={16} /></a>
             </div>
           </nav>
 
@@ -396,24 +396,24 @@ function Portfolio() {
               variants={staggerContainer}
             >
               <motion.div variants={fadeIn} className="section-label" style={{background: 'rgba(99, 102, 241, 0.1)', color: '#6366f1'}}>
-                I'M A WEB DEVELOPER
+                SAYA SEORANG PENGEMBANG WEB
               </motion.div>
               <motion.h1 variants={fadeIn}>
-                Hi, I'm <span className="text-accent" style={{ whiteSpace: 'nowrap' }}>Muhammad Ryan Azis</span>
+                Hai, saya <span className="text-accent" style={{ whiteSpace: 'nowrap' }}>Muhammad Ryan Azis</span>
               </motion.h1>
               <motion.h2 variants={fadeIn} className="hero-subtitle-container">
-                <span className="hero-subtitle" style={{ fontSize: '1.5rem', lineHeight: '1.4', display: 'block' }}>Technology Enthusiast | Web Developer | Business Analyst Enthusiast</span>
+                <span className="hero-subtitle" style={{ fontSize: '1.5rem', lineHeight: '1.4', display: 'block' }}>Penggiat Teknologi | Pengembang Web | Penggiat Analisis Bisnis</span>
                 <span className="running-light-bar"></span>
               </motion.h2>
               <motion.p variants={fadeIn} className="hero-desc" style={{ maxWidth: '600px', marginBottom: '24px' }}>
                 Saya adalah seorang penggiat teknologi yang berfokus pada pengembangan produk digital, analisis bisnis, dan penciptaan solusi inovatif yang memberikan dampak nyata melalui teknologi
               </motion.p>
               <motion.div variants={fadeIn} className="hero-actions">
-                <a href="#projects" className="btn btn-primary">View My Work <ArrowUpRight size={16} /></a>
+                <a href="#projects" className="btn btn-primary">Lihat Karya Saya <ArrowUpRight size={16} /></a>
               </motion.div>
               
               <motion.div variants={fadeIn}>
-                <p style={{fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '1px', marginBottom: '16px', fontWeight: 600}}>Technologies I work with</p>
+                <p style={{fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '1px', marginBottom: '16px', fontWeight: 600}}>Teknologi yang saya gunakan</p>
                 <div className="tech-icons">
                   <div className="tech-icon-item" title="Next.js"><SiNextdotjs size={24} color="#FFFFFF" /></div>
                   <div className="tech-icon-item" title="NestJS"><SiNestjs size={24} color="#E0234E" /></div>
@@ -468,7 +468,7 @@ function Portfolio() {
               viewport={{ once: true }}
               variants={fadeIn}
             >
-              <div className="section-label">ABOUT ME</div>
+              <div className="section-label">TENTANG SAYA</div>
               <p style={{ marginBottom: '16px' }}>
                 Halo, saya Muhammad Ryan Azis, seorang individu yang memiliki minat dan antusiasme tinggi di bidang teknologi, pengembangan produk digital, dan analisis bisnis. Saya percaya bahwa teknologi bukan hanya tentang membangun sistem, tetapi juga tentang menciptakan solusi yang mampu memberikan dampak nyata dan menyelesaikan berbagai permasalahan di kehidupan sehari-hari.
               </p>
@@ -526,8 +526,8 @@ function Portfolio() {
               viewport={{ once: true }}
               variants={fadeIn}
             >
-              <div className="section-label">CERTIFICATIONS</div>
-              <h2>My Achievements & Certifications</h2>
+              <div className="section-label">SERTIFIKASI</div>
+              <h2>Pencapaian & Sertifikasi Saya</h2>
             </motion.div>
             
             <motion.div 
@@ -564,8 +564,8 @@ function Portfolio() {
               viewport={{ once: true }}
               variants={fadeIn}
             >
-              <div className="section-label">FEATURED PROJECTS</div>
-              <h2>Some of My Recent Work</h2>
+              <div className="section-label">PROYEK UNGGULAN</div>
+              <h2>Beberapa Karya Terbaru Saya</h2>
             </motion.div>
 
             <motion.div 
