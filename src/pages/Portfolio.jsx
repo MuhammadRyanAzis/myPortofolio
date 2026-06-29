@@ -29,6 +29,7 @@ import edotelImg from '../assets/edotel.png'
 import juwaraKopiImg from '../assets/juwara-kopi.png'
 import medPlatformImg from '../assets/medplatform.png'
 import profileImg from '../assets/profile.png'
+import devAcademyImg from '../assets/devacademy.png'
 
 const defaultProjects = [
   {
@@ -53,7 +54,8 @@ Tujuan Website:
 Tujuan utama dari website DevAcademy ini adalah untuk mendemokratisasi akses pendidikan teknologi yang berkualitas agar dapat dijangkau oleh semua kalangan tanpa hambatan. Dengan menyediakan jalur pembelajaran yang terstruktur dan interaktif, website ini bertujuan untuk membimbing pemula dari tahap nol hingga memiliki pondasi kompetensi yang matang, sehingga mampu beradaptasi dan bersaing di industri teknologi modern secara percaya diri.`,
     tech: "Next.js, NestJS, Prisma ORM, PostgreSQL, React, Tailwind CSS, JWT",
     icon: "BookOpen",
-    link: "https://github.com/MuhammadRyanAzis/Pro_UKL_Sem11"
+    link: "https://github.com/MuhammadRyanAzis/Pro_UKL_Sem11",
+    image: devAcademyImg
   },
   {
     title: "CateringKita",
