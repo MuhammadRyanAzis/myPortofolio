@@ -32,6 +32,30 @@ import profileImg from '../assets/profile.png'
 
 const defaultProjects = [
   {
+    title: "DevAcademy",
+    desc: "Platform e-learning modern yang menyajikan kelas teknologi interaktif, modul kuis evaluasi mandiri, dan pelacakan progres belajar terstruktur untuk mencetak talenta digital profesional. (Role: Fullstack Developer)",
+    details: `Latar Belakang & Permasalahan yang Dihadapi:
+Di era transformasi digital yang melaju pesat saat ini, kebutuhan akan talenta di bidang teknologi terus melonjak secara signifikan. Namun, proses pembelajaran mandiri untuk menguasai keterampilan teknologi sering kali menghadapi hambatan besar. Informasi yang tersedia di internet sangat melimpah tetapi tersebar secara acak dan tidak terstruktur, sehingga membuat pemula sering kali mengalami kebingungan (information overload) mengenai dari mana mereka harus memulai dan bagaimana kelanjutan alur belajarnya. Selain itu, metode belajar satu arah tanpa adanya evaluasi pemahaman sering kali kurang efektif karena pembelajar tidak dapat mengukur tingkat penguasaan materi mereka sendiri secara objektif. Masalah pelacakan progres belajar juga sering diabaikan, membuat pembelajar kehilangan motivasi akibat tidak dapat memantau sejauh mana perkembangan kompetensi yang telah mereka capai secara berkala.
+
+Solusi yang Ditawarkan (Problem Solving):
+DevAcademy hadir sebagai platform pembelajaran elektronik (e-learning) yang dirancang khusus untuk memecahkan hambatan-hambatan tersebut secara menyeluruh dan terpadu. Platform ini menyajikan alur belajar yang sistematis melalui penyusunan kursus yang terbagi ke dalam kategori-kategori spesifik yang mudah dipahami. Setiap kursus dilengkapi dengan bab-bab pembelajaran berurutan yang memadukan materi bacaan mendalam serta media pembelajaran visual. Di setiap akhir modul pembelajaran, sistem menyediakan kuis evaluasi interaktif yang dirancang untuk langsung menguji pemahaman pengguna terhadap materi yang baru saja dipelajari. Platform ini juga mengintegrasikan sistem pelacakan progres secara real-time yang secara otomatis menyimpan status penyelesaian bab serta mencatat skor tertinggi dari kuis yang dikerjakan. Dengan demikian, pengguna memiliki kontrol penuh atas perjalanan belajar mereka secara mandiri dan terarah.
+
+Mengapa Aplikasi Ini Digunakan & Fitur Unggulan:
+Aplikasi ini digunakan karena menawarkan ekosistem pembelajaran yang efisien, transparan, dan kaya interaksi, baik bagi siswa (student) maupun pengelola materi (admin). Beberapa fitur kunci yang melandasi penggunaan aplikasi ini meliputi:
+• Sistem Autentikasi dan Manajemen Pengguna
+• Katalog Kursus Dinamis
+• Pembelajaran Berbasis Bab & Multimedia
+• Kuis Evaluasi Mandiri Terintegrasi
+• Dashboard Progres Belajar
+• Panel Admin Khusus (Back-office)
+
+Tujuan Website:
+Tujuan utama dari website DevAcademy ini adalah untuk mendemokratisasi akses pendidikan teknologi yang berkualitas agar dapat dijangkau oleh semua kalangan tanpa hambatan. Dengan menyediakan jalur pembelajaran yang terstruktur dan interaktif, website ini bertujuan untuk membimbing pemula dari tahap nol hingga memiliki pondasi kompetensi yang matang, sehingga mampu beradaptasi dan bersaing di industri teknologi modern secara percaya diri.`,
+    tech: "Next.js, NestJS, Prisma ORM, PostgreSQL, React, Tailwind CSS, JWT",
+    icon: "BookOpen",
+    link: "https://github.com/MuhammadRyanAzis/Pro_UKL_Sem11"
+  },
+  {
     title: "CateringKita",
     desc: "Platform e-catering modern berbasis web yang mengintegrasikan penyedia jasa katering dan pelanggan. (Role: Fullstack Developer)",
     details: "CateringKita lahir sebagai solusi atas hambatan efisiensi yang sering dihadapi dalam bisnis katering konvensional, di mana proses pemesanan manual—baik untuk kebutuhan acara besar maupun katering harian—sering kali terkendala oleh kurangnya transparansi harga, salah pencatatan menu, dan manajemen pengiriman yang tidak teratur. Guna mengatasi masalah tersebut, platform ini hadir sebagai jembatan digital yang mengintegrasikan seluruh operasional pemesanan dengan menyediakan katalog menu yang transparan bagi pelanggan, sistem langganan harian yang terjadwal otomatis, serta modul manajemen operasional terpadu bagi vendor untuk memantau produksi dapur hingga pengiriman.",
