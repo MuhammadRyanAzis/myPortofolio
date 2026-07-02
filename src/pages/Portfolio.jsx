@@ -30,8 +30,22 @@ import juwaraKopiImg from '../assets/juwara-kopi.png'
 import medPlatformImg from '../assets/medplatform.png'
 import profileImg from '../assets/profile.png'
 import devAcademyImg from '../assets/devacademy.png'
+import pdamImg from '../assets/pdam.png'
 
 const defaultProjects = [
+  {
+    title: "PDAM Baru",
+    desc: "Solusi digital satu pintu untuk memudahkan pelanggan dalam mengelola tagihan, melihat riwayat pemakaian, serta mengajukan keluhan layanan air bersih secara transparan dan seketika (real-time). (Role: Full-Stack Developer & UI/UX Designer)",
+    details: `Proyek "PDAM Baru" merupakan sebuah purwarupa sistem manajemen utilitas publik modern yang saya rancang dan kembangkan sebagai bentuk pemenuhan tugas akhir/sekolah. Tujuan utama dari pembuatan sistem ini adalah untuk mendigitalisasi proses administratif dan pelayanan di sektor distribusi air bersih yang selama ini sering kali masih bergantung pada metode manual.
+
+Melalui aplikasi berbasis web ini, saya berusaha menghadirkan ekosistem layanan yang saling terintegrasi antara dua sisi pengguna: pelanggan dan administrator. Bagi pelanggan, sistem ini menawarkan dasbor interaktif di mana mereka dapat dengan mudah memantau statistik pemakaian air bulanan, menerima rincian tagihan digital secara transparan, melakukan konfirmasi pembayaran, hingga melaporkan gangguan saluran air—semuanya dari genggaman tanpa harus datang ke kantor fisik.
+
+Sementara itu, dari sisi manajemen atau administrator, platform ini menyediakan pusat kendali (command center) yang komprehensif. Administrator dapat melacak total pendapatan, memverifikasi bukti pembayaran yang masuk, mengelola basis data pelanggan, hingga memantau status operasional layanan secara utuh. Fokus utama dari desain antarmukanya adalah memberikan pengalaman pengguna yang intuitif, bersih, dan futuristik, sehingga masyarakat dari berbagai kalangan dapat beradaptasi menggunakan teknologi ini dengan mudah. Proyek tugas sekolah ini tidak hanya mendemonstrasikan pemahaman secara teknis, tetapi juga bagaimana teknologi dapat memberikan solusi nyata yang berkelanjutan bagi kebutuhan hajat hidup orang banyak.`,
+    tech: "Next.js, React, Tailwind CSS, Framer Motion, Lucide Icons",
+    icon: "Globe",
+    link: "https://pdam-tugas-sekolah.vercel.app/",
+    image: pdamImg
+  },
   {
     title: "DevAcademy",
     desc: "Platform e-learning modern yang menyajikan kelas teknologi interaktif, modul kuis evaluasi mandiri, dan pelacakan progres belajar terstruktur untuk mencetak talenta digital profesional. (Role: Fullstack Developer)",
